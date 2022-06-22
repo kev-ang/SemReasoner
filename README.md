@@ -10,4 +10,4 @@ This repository currently contains:
 ## Playing around with SemReasoner
 A single SemReasoner instance with a simple demo interface is available [here](http://phd.angele.sti2.at). It allows to provide JSON documents, rules, and a query. When submitting the data, a single reasoning core is initialized, the rules and the query are executed and the result returned. The data is not persisted in this simple demo version.
 
-If you are interested in commercial use and newer versions please contact us at: [kevin[dot]angele[at]sti2.at](mailto:kevin.angele@sti2.at)
+If you are interested in commercial use and newer versions please contact us at: kevin[dot]angele[at]sti2.at
