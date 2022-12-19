@@ -52,7 +52,6 @@ The query bindings for _a_, _b1_, and _b2_ do not deliver any result. That is wh
 
 
 #### Negation
-#### Datalog Recursion
 | Engine | Materialization | Query Response |
 |--------|-----------------|----------------|
 | RDFox | 6,751.67 (10.69) | 0.33 (0.58) |
