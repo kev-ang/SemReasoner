@@ -8,6 +8,4 @@ This repository currently contains:
 - Javadoc for the APIs SemReasoner provides
 
 ## Playing around with SemReasoner
-A single SemReasoner instance with a simple demo interface is available [here](http://phd.angele.sti2.at). It allows to provide JSON documents, rules, and a query. When submitting the data, a single reasoning core is initialized, the rules and the query are executed and the result returned. The data is not persisted in this simple demo version.
-
-If you are interested in commercial use and newer versions please contact us at: kevin[dot]angele[at]sti2.at
+A single SemReasoner instance with a simple demo interface is available [here](http://95.217.61.50:8100/). It allows to provide JSON documents, rules, and a query. When submitting the data, a single reasoning core is initialized, the rules and the query are executed and the result returned. The data is not persisted in this simple demo version.
