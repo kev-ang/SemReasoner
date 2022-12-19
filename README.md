@@ -18,9 +18,11 @@ A single SemReasoner instance with a simple demo interface is available [here](h
 | Engine | a no bindings | b1 no bindings | b2 no bindings || a 1st argument bound | b1 1st argument bound | b2 1st argument bound || a 2nd argument bound | b1 2nd argument bound | b2 2nd argument bound |
 |--------|---------------|----------------|----------------||----------------------|-----------------------|-----------------------||----------------------|-----------------------|-----------------------|
 | Jena | timeout | timeout | 51,134 || timeout | timeout | timeout || timeout | timeout | timeout |
-| SemReasoner (Memory) | 232.33 (30.89) | 220.67 (10.69) | 220.67 (10.69) || (coming soon) | (coming soon) | (coming soon) || (coming soon) | (coming soon) | (coming soon) |
-| SemReasoner (Persistent) | 299.33 (8.08) | 289.67 (9.07) | 286.67 (5.77) || (coming soon) | (coming soon) | (coming soon) || (coming soon) | (coming soon) | (coming soon) |
-| Stardog | exception | 409.67 (13.28) | 249.00 (2.65) || (coming soon) | (coming soon) | (coming soon) || (coming soon) | (coming soon) | (coming soon) |
+| SemReasoner (Memory) | 232.33 (30.89) | 220.67 (10.69) | 220.67 (10.69) || 1.67 (0.58) | 1.00 (1.00) | 1.00 (1.00) || 1.33 (0.58) | 4.33 (2.89) | 1.33 (0.58) |
+| SemReasoner (Persistent) | 299.33 (8.08) | 289.67 (9.07) | 286.67 (5.77) || 1.33 (0.58) | 1.00 (0.00) | 1.00 (0.00) || 1.00 (0.00) | 2.67 (2.89) | 1.00 (0.00) |
+| Stardog | exception | 409.67 (13.28) | 249.00 (2.65) || timeout | timeout | 33.67 (6.35) || timeout | timeout | 28.33 (2.08) |
+
+The query bindings for _a_, _b1_, and _b2_ do not deliver any result. That is why the query times are that low.
 
 
 #### Datalog Recursion
@@ -36,9 +38,9 @@ A single SemReasoner instance with a simple demo interface is available [here](h
 #### Join 1
 | Engine | Materialization | a no bindings | b1 no bindings | b2 no bindings || a 1st argument bound | b1 1st argument bound | b2 1st argument bound || a 2nd argument bound | b1 2nd argument bound | b2 2nd argument bound |
 |--------|-----------------|---------------|----------------|----------------||----------------------|-----------------------|-----------------------||----------------------|-----------------------|-----------------------|
-| RDFox | 143,565.67 (2,452.67) | 32.00 (0.00) | 28.00 (0.00) | 27.67 (0.58) || (coming soon) | (coming soon) | (coming soon) || (coming soon) | (coming soon) | (coming soon) |
-| SemReasoner | 118,427.00 (2,493.72) | 526.00 (51.12) | 199.33 (9.29) | 248.33 (11.37) || (coming soon) | (coming soon) | (coming soon) || (coming soon) | (coming soon) | (coming soon) |
-| VLog | 518,676.22 (369.55) | 129.33 (20.50) | 115.33 (1.53) | 117.67 (1.53) || (coming soon) | (coming soon) | (coming soon) || (coming soon) | (coming soon) | (coming soon) |
+| RDFox | 143,565.67 (2,452.67) | 32.00 (0.00) | 28.00 (0.00) | 27.67 (0.58) || 0.00 (0.00) | 0.33 (0.58) | 0.00 (0.00) || 0.33 (0.58) | 0.33 (0.58) | 0.33 (0.58) |
+| SemReasoner | 118,427.00 (2,493.72) | 526.00 (51.12) | 199.33 (9.29) | 248.33 (11.37) || 2.00 (0.00) | 2.00 (0.00) | 1.33 (0.58) || 1.00 (0.00) | 1.00 (0.00) | 1.33 (0.58) |
+| VLog | 518,676.22 (369.55) | 129.33 (20.50) | 115.33 (1.53) | 117.67 (1.53) || 10.67 (1.15) | 10.67 (1.15) | 9,67 (1.15) || 11.33 (0.58) | 10.67 (0.58) | 11.00 (1.00) |
 
 
 #### Datalog Recursion
