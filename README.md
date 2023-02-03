@@ -30,7 +30,7 @@ The query bindings for _a_, _b1_, and _b2_ do not deliver any result. That is wh
 |--------|--------------|-----|--------|
 | Jena | - | timeout | timeout |
 | SemReasoner (Memory) | 96.67 (1.15) | 7,941.33 (341.90) | 7,085.22 (134.69) |
-| SemReasoner (Persistent) 228.67 (8.33) | 6,592.67 (300.34) | 6,084.67 (327.65) |
+| SemReasoner (Persistent) | 228.67 (8.33) | 6,592.67 (300.34) | 6,084.67 (327.65) |
 | Stardog | 0 | 62.67 (3.21) | 40.00 (2.00) |
 
 ### Materialization
