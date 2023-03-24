@@ -40,7 +40,6 @@ For RDFox we do not provide the loading times as they include materialization. R
 #### Join 1
 | Engine | Loading Time | Materialization | a no bindings | b1 no bindings | b2 no bindings | a 1st argument bound | b1 1st argument bound | b2 1st argument bound | a 2nd argument bound | b1 2nd argument bound | b2 2nd argument bound |
 |--------|--------------|-----------------|---------------|----------------|----------------|----------------------|-----------------------|-----------------------|----------------------|-----------------------|-----------------------|
-| RDFox | - | 143,565.67 (2,452.67) | 32.00 (0.00) | 28.00 (0.00) | 27.67 (0.58) | 0.00 (0.00) | 0.33 (0.58) | 0.00 (0.00) | 0.33 (0.58) | 0.33 (0.58) | 0.33 (0.58) |
 | SemReasoner | 92.00 (3.00) | 118,427.00 (2,493.72) | 526.00 (51.12) | 199.33 (9.29) | 248.33 (11.37) | 2.00 (0.00) | 2.00 (0.00) | 1.33 (0.58) | 1.00 (0.00) | 1.00 (0.00) | 1.33 (0.58) |
 | VLog | 36.67 (7.51) | 518,676.22 (369.55) | 129.33 (20.50) | 115.33 (1.53) | 117.67 (1.53) | 10.67 (1.15) | 10.67 (1.15) | 9,67 (1.15) | 11.33 (0.58) | 10.67 (0.58) | 11.00 (1.00) |
 
@@ -48,7 +47,6 @@ For RDFox we do not provide the loading times as they include materialization. R
 #### Datalog Recursion
 | Engine | Loading Time | Materialization | Cyc | Materialization | No Cyc |
 |--------|--------------|-----------------|-----|-----------------|--------|
-| RDFox | - | 9,521.33 (476.92) | 7 (0.00) | 8,329.67 (156.07) | 7.00 (0.00) |
 | SemReasoner | 92.00 (3.00) | 1,653.33 (1,638.28) | 56.67 (1.15) | 1,128.67 (57.14) | 54.33 (1.15) |
 | VLog | 36.67 (7.51) | 24,245.67 (78.68) | 29.00 (1.00) | 21,467.00 (54.11) | 28.33 (1.15) |
 
@@ -56,6 +54,5 @@ For RDFox we do not provide the loading times as they include materialization. R
 #### Negation
 | Engine | Loading Time | Materialization | Query Response |
 |--------|--------------|-----------------|----------------|
-| RDFox | - | 6,751.67 (10.69) | 0.33 (0.58) |
 | SemReasoner | 92.00 (3.00) | 11,637.67 (278.32) | 0.67 (0.58) |
 | VLog | 36.67 (7.51) | 9,135.00 (7.94) | 0.00 (0.00) |
